@@ -175,6 +175,12 @@ padding-bottom: 20px;
     display: none;
 }
 @media screen and (max-width:576px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     nav{
         flex-direction: column;
         margin: none;
@@ -189,12 +195,10 @@ padding-bottom: 20px;
     }
     .hero img{
         width: 100%;
-        background-image: 100%;
+        background-image: none;
     }
     .hero-logos{
-        grid-template-columns: repeat(4,1fr);
-        justify-items: center;
-        width:270px;
+        grid-template-columns: repeat(3,1fr);
     }
     hr{
         display: none;

@@ -195,7 +195,7 @@ padding-bottom: 20px;
     }
     .hero img{
         width: 100%;
-        background-image: none;
+        background-image: 100%;
     }
     .hero-logos{
         grid-template-columns: repeat(3,1fr);

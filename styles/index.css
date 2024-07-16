@@ -123,7 +123,6 @@ margin-bottom: 0px;
     color: rgba(224, 44, 109, 0.87);
 font-size: 1rem;
 font-weight: 700;
-margin-right: -1110px;
 }
 .featured{
     max-width: 1110px;
@@ -199,8 +198,16 @@ padding-bottom: 20px;
     }
     .hero-logos{
         grid-template-columns: repeat(3,1fr);
+        justify-items: center;
     }
     hr{
         display: none;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .card{
+        width: 100%;
     }
 }

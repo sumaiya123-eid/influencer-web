@@ -31,7 +31,7 @@ nav ul a{
     max-width: 582px;
 }
 .hero img{
-    background-image: url("../images/Circle\ design.svg");
+    background-image:url("../images/Circle\ design.svg");
 }
 .hero-text h2{
     color: rgb(58, 58, 58);
@@ -81,8 +81,6 @@ margin-bottom: 30px;
     border-radius: 5px;
 padding: 17px 15px 30px 14px;
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-background: rgb(255, 255, 255);
-width: 329px;
 text-align: start;
 }
 .card img{
@@ -116,8 +114,7 @@ margin-bottom: 0px;
 }
 .card-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+    grid-template-columns: repeat(3,1fr);   
 }
 .see-more{
     color: rgba(224, 44, 109, 0.87);
@@ -194,7 +191,7 @@ padding-bottom: 20px;
     }
     .hero img{
         width: 100%;
-        background-image: 70%;
+        background-image:70%;
     }
     .hero-logos{
         grid-template-columns: repeat(3,1fr);

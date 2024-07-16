@@ -177,6 +177,7 @@ padding-bottom: 20px;
 @media screen and (max-width:576px) {
     nav{
         flex-direction: column;
+        margin: none;
     }
     .hero{
         flex-direction: column-reverse;
@@ -184,13 +185,16 @@ padding-bottom: 20px;
     }
     .hero-text{
         text-align: center;
+        width: 100%;
     }
     .hero img{
         width: 100%;
+        background-image: 100%;
     }
     .hero-logos{
         grid-template-columns: repeat(4,1fr);
         justify-items: center;
+        width:270px;
     }
     hr{
         display: none;

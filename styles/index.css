@@ -167,7 +167,7 @@ font-size: 0.8rem;
 font-weight: 700;
 padding-bottom: 20px;
 }
-.hide{
+.bar{
     display: none;
 }
 @media screen and (max-width:576px) {
@@ -177,10 +177,14 @@ padding-bottom: 20px;
         justify-content: center;
         align-items: center;
     }
-    nav{
-        flex-direction: column;
-        margin: none;
+    .bar{
+        display: flex;
+        margin-right: 50px;      
     }
+    .hide{
+        display: none;
+    }
+    
     .hero{
         flex-direction: column-reverse;
         gap: 0px;

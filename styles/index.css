@@ -177,6 +177,10 @@ padding-bottom: 20px;
         justify-content: center;
         align-items: center;
     }
+    .hero-img{
+        width: 100%;
+        background-image:70%;
+    }
     .bar{
         display: flex;
         padding: 0px; 

@@ -30,7 +30,7 @@ nav ul a{
 .hero-text{
     max-width: 582px;
 }
-.hero-img{
+.hero img{
     background-image:url("../images/Circle\ design.svg");
 }
 .hero-text h2{
@@ -177,7 +177,7 @@ padding-bottom: 20px;
         justify-content: center;
         align-items: center;
     }
-    .hero-img{
+    .hero img{
         width: 100%;
         background-image:70%;
     }

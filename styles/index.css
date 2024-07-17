@@ -179,7 +179,16 @@ padding-bottom: 20px;
     }
     .bar{
         display: flex;
-        margin-right: 50px;      
+        padding: 0px; 
+        margin: 0px;     
+    }
+    nav{
+        margin: 0px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav h3{
+        margin-left: 40px;
     }
     .hide{
         display: none;
